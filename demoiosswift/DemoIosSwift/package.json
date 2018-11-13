@@ -1,0 +1,17 @@
+{
+  "name": "DemoIosSwift",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-demoIosSwift",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Monica",
+  "license": "-"
+}

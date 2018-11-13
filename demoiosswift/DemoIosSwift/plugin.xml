@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-demoIosSwift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>DemoIosSwift</name>
+    <js-module name="DemoIosSwift" src="www/DemoIosSwift.js">
+        <clobbers target="demoIosSwift" />
+    </js-module>
+
+    <platform name="ios">
+  <config-file target="config.xml" parent="/*">
+    <feature name="DemoIosSwift">
+      <param name="ios-package" value="DemoIosSwift" />
+    </feature>
+  </config-file>
+  <source-file src="src/ios/DemoIosSwift.swift" />
+</platform>
+
+</plugin>
